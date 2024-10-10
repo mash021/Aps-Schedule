@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APS IT Company - 20 Day Schedule</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #F4F6FF;
+            font-family: Arial, sans-serif;
+            color: #10375C;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #10375C;
+            padding: 20px;
+            color: #F4F6FF;
+            font-size: 18px;
+        }
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            color: #F3C623;
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+        .user-info i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .user-info .title {
+            font-size: 16px;
+            margin-left: 10px;
+            color: #F3C623;
+        }
+        h1 {
+            text-align: center;
+            color: #10375C;
+            margin-top: 40px;
+        }
+        .schedule {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .day {
+    background-color: #F3C623;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 180px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.day:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.4); /* Hover effect */
+}
+        .day h2 {
+            color: #EB8317;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .time, .end-time {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #10375C;
+            color: #F4F6FF;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .time i, .end-time i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">APS</div>
+        <div class="user-info">
+            <i class="fas fa-user-circle"></i> Mo Ali Sharifi
+        <br><span class="title">Webudvikler</span>
+        </div>
+    </div>
+
+    <!-- Title -->
+    <h1>Schedule</h1>
+
+    <!-- Schedule -->
+    <div class="schedule">
+        <div class="day">
+            <h2>Fre, Okt 11</h2>
+            <div class="time"><i class="fas fa-clock"></i> Start: 10:00 AM</div>
+            <div class="end-time"><i class="fas fa-clock"></i> End: 3:00 PM</div>
+        </div>
+        <div class="day">
+            <h2>Lør, Okt 12</h2>
+            <div class="time"><i class="fas fa-clock"></i> Start: 10:00 AM</div>
+            <div class="end-time"><i class="fas fa-clock"></i> End: 3:00 PM</div>
+        </div>
+        <div class="day">
+            <h2>Søn, Okt 13</h2>
+            <div class="time"><i class="fas fa-clock"></i> Start: 1:30 PM</div>
+            <div class="end-time"><i class="fas fa-clock"></i> End: 6:30 PM</div>
+        </div>
+        <!-- Repeat for other days -->
+    </div>
+
+</body>
+</html>
